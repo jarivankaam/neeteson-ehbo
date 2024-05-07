@@ -1,5 +1,5 @@
 /*
-Theme Name: Jarivankaam studios
+Theme Name: NeetesonEHBO
 Author: Jarivankaam-studios
 Version: 1.0
 */
@@ -4652,11 +4652,11 @@ button.swiper-pagination-bullet {
 }
 
 body {
-  background: #000d1b !important;
+  background: white !important;
 }
 
 .site-header {
-  background: #000d1b;
+  background: white;
   position: fixed;
   width: 100%;
   z-index: 99999;
