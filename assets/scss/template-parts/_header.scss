@@ -1,5 +1,5 @@
 .site-header {
-  background: #000d1b;
+  background: white;
   position: fixed;
   width: 100%;
   z-index: 99999;
@@ -25,9 +25,9 @@
             color: $white;
             text-decoration: none;
             font-weight: normal;
-            transition: .3s;
+            transition: 0.3s;
           }
-          &.cta-wrapper{
+          &.cta-wrapper {
             a {
               padding: 15px 20px;
               background: #123f62;
@@ -36,10 +36,10 @@
           }
 
           &:hover {
-            transition: .3s;
+            transition: 0.3s;
             a {
               color: #36414a;
-              transition: .3s;
+              transition: 0.3s;
             }
             &.cta-wrapper {
               a {

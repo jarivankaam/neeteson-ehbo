@@ -8,7 +8,7 @@ $content = get_sub_field('content');
 $buttons = get_sub_field('buttons');
 $reverse_layout = get_sub_field('layout');
 $centered = get_sub_field('centered');
-if(!empty($buttons)) {
+if($buttons) {
     $buttonCount = count($buttons);
 };
 

@@ -11,7 +11,7 @@ $subtext = get_sub_field('hero_content');
 
 $buttons = get_sub_field('buttons');
 $hero_image = get_sub_field('image');
-if(!empty($buttons)) {
+if($buttons) {
     $buttonCount = count($buttons);
 };
 
